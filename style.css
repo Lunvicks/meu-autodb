@@ -1,0 +1,94 @@
+:root {
+    --bg: #0d0f14;
+    --surface: #161920;
+    --border: #252a35;
+    --accent: #f0c040;
+    --text: #e8eaf0;
+    --muted: #6b7280;
+    --danger: #e05555;
+    --tag: #1e2535;
+}
+
+* { box-sizing: border-box; }
+
+body { 
+    margin: 0; 
+    background: var(--bg); 
+    color: var(--text); 
+    font-family: 'IBM Plex Sans', sans-serif; 
+}
+
+/* Header e Navegação */
+.header { 
+    background: var(--surface); 
+    border-bottom: 1px solid var(--border); 
+    padding: 0 24px; 
+    height: 56px; 
+    display: flex; 
+    align-items: center; 
+    justify-content: space-between; 
+}
+
+.nav-tabs { 
+    display: flex; 
+    background: var(--surface); 
+    border-bottom: 1px solid var(--border); 
+    padding: 0 24px; 
+}
+
+.nav-tab { 
+    background: none; 
+    border: none; 
+    padding: 15px 20px; 
+    color: var(--muted); 
+    cursor: pointer; 
+    font-family: 'IBM Plex Mono', monospace; 
+    font-size: 12px; 
+    font-weight: 600; 
+    border-bottom: 2px solid transparent; 
+}
+
+.nav-tab.active { 
+    color: var(--accent); 
+    border-bottom-color: var(--accent); 
+}
+
+/* Cards e Layout */
+.container { 
+    padding: 24px; 
+    max-width: 1000px; 
+    margin: 0 auto; 
+}
+
+.card { 
+    background: var(--surface); 
+    border: 1px solid var(--border); 
+    border-radius: 8px; 
+    padding: 24px; 
+}
+
+/* Formulários */
+input, select { 
+    background: var(--tag); 
+    border: 1px solid var(--border); 
+    color: white; 
+    padding: 10px; 
+    border-radius: 6px; 
+    width: 100%; 
+    margin-bottom: 15px; 
+}
+
+.btn { 
+    padding: 10px 20px; 
+    border-radius: 6px; 
+    font-weight: 600; 
+    cursor: pointer; 
+    border: none; 
+}
+
+.btn-primary { background: var(--accent); color: var(--bg); }
+
+/* Tabelas */
+table { width: 100%; border-collapse: collapse; }
+th { text-align: left; color: var(--muted); font-size: 11px; padding: 12px; border-bottom: 1px solid var(--border); }
+td { padding: 12px; border-bottom: 1px solid var(--border); font-size: 14px; }
