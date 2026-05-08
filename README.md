@@ -1,5 +1,7 @@
 # ◈ AutoDB | Sistema de Gerenciamento de Dados
 
+[🔗 Clique aqui para acessar o sistema](https://lunvicks.github.io/meu-autodb/)
+
 Este é um projeto desenvolvido para facilitar a estruturação e o armazenamento de dados de forma dinâmica e intuitiva. O sistema permite que o usuário crie suas próprias tabelas e colunas, funcionando como um banco de dados flexível diretamente no navegador.
 
 ## 🚀 Funcionalidades
